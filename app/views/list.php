@@ -1,6 +1,5 @@
 <?php
   function recursive($array){
-    $html="";
     foreach($array as $key => $value){
       if(!is_array($value)){
         echo "<li class='list-group-item'>".$key. " : ".$value."</li>";
